@@ -23,6 +23,9 @@ export default {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 500px;
+  height: 400px;
+  background-color: pink;
   .title {
     font-size: 30px;
   }

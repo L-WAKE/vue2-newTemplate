@@ -18,6 +18,9 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 500px;
+  height: 400px;
+  background-color: gray;
   .title {
     font-size: 30px;
   }
