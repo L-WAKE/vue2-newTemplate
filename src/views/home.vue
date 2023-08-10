@@ -3,10 +3,20 @@
     <div class="title">基于webpack5构建的vue2项目</div>
     <router-link to="/login">登录</router-link>
     <router-link to="/my">我的</router-link>
+
+    <br />
+    <Child1></Child1>
+    <Child2></Child2>
   </div>
 </template>
 <script>
+import Child1 from "./components/child1.vue";
+import Child2 from "./components/child2.vue";
 export default {
+  components: {
+    Child1,
+    Child2,
+  },
   data() {
     return {};
   },
