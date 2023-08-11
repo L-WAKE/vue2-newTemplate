@@ -36,7 +36,7 @@ export default {
   .image-box {
     margin-top: 50px;
     width: 100%;
-    height: 600px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     .image-item {
