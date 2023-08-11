@@ -1,6 +1,6 @@
 <template>
   <div class="my-center">
-    <div class="title">我的个人中心</div>
+    <div class="title">我的个人中心（图片懒加载）</div>
     <button @click="$router.back()">返回</button>
     <div class="image-box">
       <div class="image-item" v-for="item in imageList" :key="item.key">
