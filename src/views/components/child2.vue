@@ -1,6 +1,7 @@
 <template>
   <div class="child2">
     <div class="title">child2</div>
+    <button @click="submitEvent" v-throttle="3000">提交</button>
   </div>
 </template>
 <script>
@@ -14,6 +15,9 @@ export default {
   methods: {
     handle(e) {
       console.log("child2接收到的事件参数", e);
+    },
+    submitEvent() {
+      console.log("提交表单");
     },
   },
   beforeDestroy() {
@@ -29,7 +33,7 @@ export default {
   justify-content: center;
   width: 500px;
   height: 400px;
-  background-color: blue;
+  background-color: #0000ff1f;
   .title {
     font-size: 30px;
   }
