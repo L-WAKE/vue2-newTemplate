@@ -77,9 +77,8 @@ module.exports = {
       favicon: "public/favicon.ico", // 图标
       title: "我的webpack应用",
     }),
-    new webpack.ProvidePlugin({
-      jQuery: "jQuery",
-    }),
+    // new webpack.ProvidePlugin({
+    // }),
   ],
   optimization: {
     sideEffects: true, //开启树摇，将没有使用的变量或方法剔除 不参与打包
